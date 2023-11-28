@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color:  hsl(157, 18%, 56%);
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .image {
+      width: 100%; /* Take full width on small screens */
+      max-width: 150px; /* Maximum width for larger screens */
+      height: auto;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+      margin: 5px; /* Add some margin between images */
+    }
+
+    .image7, .image8, .image9 {
+      width: 100%; /* Take full width on small screens */
+      max-width: 300px; /* Maximum width for larger screens */
+      height: auto;
+      border-radius: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 30px;
+      color: hsl(155, 10%, 32%);
+    }
+
+    .VINE {
+      font-size: 20px;
+      margin-top: 20px;
+      display: block;
+      text-align: center;
+      color: hsl(159, 17%, 49%);
+      text-decoration: none;
+      border: 2px solid   hsl(158, 19%, 38%);
+      padding: 8px 16px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .VINE:hover {
+      background-color: hsl(158, 20%, 44%);
+      color: white;
+    }
+
+    hr {
+      width: 3%;
+      border: 6px dotted  hsl(158, 19%, 38%);
+      border-top: none;
+      margin: 20px auto;
+    }
+
+    p {
+      text-align: center;
+      font-size: 20px;
+      color: hsl(159, 37%, 51%);
+      margin: 0;
+    }
+
+    /* Media Query for smaller screens */
+    @media only screen and (max-width: 600px) {
+      .image-container {
+        flex-direction: column;
+      }
+
+      h2 {
+        padding-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h2>"We age not by years, but by stories." —</h2>
+  
+
+  <div class="image-container">
+    <img class="image" src="1.jpg" alt="Image 1">
+    <img class="image" src="2.jpg" alt="Image 2">
+    <img class="image" src="3.jpg" alt="Image 3">
+    <img class="image" src="4.jpg" alt="Image 4">
+    <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnlYahtyibdsqyvf93mW3N-O7K7ySQgdvZ7akYwP525tRDt2fJSLQ_HUXm6l2rALvhI1E&usqp=CAU" alt="Image 5">
+    <img class="image" src="5.jpg" alt="Image 6">
+    <img class="image7" src="67.jpg" alt="Image 7">
+    <img class="image8" src="897.jpg" alt="Image 8">
+    <img class="image9" src="6756.jpg" alt="Image 6">
+  </div>
+
+  <hr>
+  <a class="VINE" href="treat.html">Last Request</a>
+</body>
+</html>
